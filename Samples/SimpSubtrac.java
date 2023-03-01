@@ -4,7 +4,6 @@ class SimpSubtrac
 { 
    byte y=56;
    double z=6.2f;
-  System.out.println(y-z);
-  
+  System.out.println(y-z);  
 }
 }
