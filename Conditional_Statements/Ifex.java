@@ -1,4 +1,4 @@
- class Ifex
+class Ifex
 {
     public static void main(String args[])
     {
