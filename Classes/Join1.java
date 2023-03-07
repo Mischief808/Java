@@ -11,13 +11,14 @@ class Join1
 {
     public static void main(String args[])
     {
-        Scanner get = new Scanner(System.in);
-        Opera t = new Opera();
-        int m,n;
-        System.out.println("Enter Two Numbers to Multiply");
-        m=get.nextInt();
-        n=get.nextInt();
-        System.out.println("The result is "+t.Mult(m,n));
+            Scanner num = new Scanner(System.in);
+            Opera t = new Opera();
+            int m,n;
+            System.out.println("Enter Two Numbers to Multiply");
+            m=num.nextInt();
+            n=num.nextInt();
+            System.out.println("The result is "+t.Mult(m,n));
+        
 
     }
 }
