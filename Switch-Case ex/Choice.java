@@ -11,23 +11,18 @@ class Choice
       {
          case 1:
               System.out.println("Your choice is 1");
-              System.out.println("Have a Nice Day");
+              System.out.println("Have a Nice Day!");
               break;
          case 2:
               System.out.println("Your Choice is 2");
-              System.out.println("Have a Nice day");
+              System.out.println("Have a Nice day!");
               break;
          case 3:
                System.out.println("Your Choice is 3");
-               System.out.println("Have a Nice Day");
+               System.out.println("Have a Nice Day!");
                break;
          default:
                System.out.println("You Have Entered a wrong Choice");
-
-
       }
-
-      
-
    }   
 }
