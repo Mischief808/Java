@@ -7,15 +7,15 @@ class Input
         int n;
         System.out.println("Enter the size of Array");
         n = inp.nextInt();
-        int[] array = new int[n];
+        int[] item = new int[n];
         for(int i=0;i<n;i++)
         {
-            array[i] = inp.nextInt();
+            item[i] = inp.nextInt();
         }
         for(int i=0;i<n;i++)
         {
-            System.out.print(array[i] + " ");
+            System.out.print(item[i] + " ");
         }
 
     }
-}
+}   
