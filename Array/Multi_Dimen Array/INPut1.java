@@ -8,7 +8,7 @@ class INPut1
        System.out.println("Enter size of an 2-D Array ");
        d=inp.nextInt();
        e=inp.nextInt();
-       System.out.println("Enter the elements of an array");
+       System.out.println("Enter the elements of array");
        int[][] baz = new int[d][e];
        for(i=0;i<d;i++)
        {
