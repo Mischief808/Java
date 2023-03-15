@@ -2,7 +2,7 @@ class Two_d
 {
     public static void main(String args[])
     {
-        String[][] cars={{"Hyundai","Honda","Tata"},{"BMW","Volvo","Benz","Audi"}};
+        String[][] cars={{"Hyundai","Honda","Tata"},{"BMW","Volvo","Jaguar","Audi"}};
         System.out.println(cars[0][0]);
         System.out.println(cars[0][1]);
         
