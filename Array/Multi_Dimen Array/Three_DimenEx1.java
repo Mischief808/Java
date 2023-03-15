@@ -9,7 +9,7 @@ class Three_DimenEx1
             {
                 for(int k=0;k<5;k++)
                 {
-                    gab[i][j][k] = (int)(Math.random()*10);
+                    gab[i][j][k] = (int)(Math.random()*100);
                 }
             }
         }
