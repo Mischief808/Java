@@ -5,7 +5,7 @@ class StringBufferExample6
     {
         StringBuffer ja = new StringBuffer("Hi Everyone....");
         System.out.println(ja.capacity());
-        ja.ensureCapacity(35);
+        ja.ensureCapacity(39);
         System.out.println(ja.capacity());
 
     }
