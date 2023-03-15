@@ -5,7 +5,7 @@ class Three_Dime
     {
         Scanner ge = new Scanner(System.in);
         int f,g,h,i,j,k;
-        System.out.println("Enter the size of 3-D Array");
+        System.out.println("Enter the size of an 3-D Array");
         f = ge.nextInt();
         g = ge.nextInt();
         h = ge.nextInt();
