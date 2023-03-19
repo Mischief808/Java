@@ -17,7 +17,8 @@ class B extends A
     System.out.println("In B");
  }
  B(int n)
- {
+ { 
+    super(n);
     System.out.println("In B(int)");
  }
 }
@@ -25,8 +26,7 @@ class Construct
 {
     public static void main(String args[])
     {
-       A ob = new A();
-       B ob1 = new B();
-       
+        
+       B ob1 = new B(6);  
     }
 }
