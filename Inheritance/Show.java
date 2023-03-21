@@ -6,5 +6,5 @@ class Show extends Channel
         Channel c = new Channel();
         t.show();
         c.show();
-    }
+    } 
 }
