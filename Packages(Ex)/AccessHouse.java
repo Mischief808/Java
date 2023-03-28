@@ -1,5 +1,5 @@
 import house.*;
-class Access
+class AccessHouse
 {
  public static void main(String args[])
  {
