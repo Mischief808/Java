@@ -1,20 +1,20 @@
 class NonVegeterian
 {
-  public void show()
+  public void display()
   {
     System.out.println("Non-Veg Show Method");
   }
 }
 class Chicken extends NonVegeterian
 {
-  public void show()
+  public void display()
   {
     System.out.println("Chicken's Show Method");
   }
 }
 class Prawn extends NonVegeterian
 {
-  public void show()
+  public void display()
   {
     System.out.println("Prawn's Show Method");
   }
@@ -29,12 +29,10 @@ class NonVegeterianDispatch
        Prawn obj2 = new Prawn(); 
        NonVegeterian acc;
        acc = obj;
-       acc.show();
+       acc.display();
        acc = obj1;
-       acc.show();
+       acc.();
        acc = obj2;
        acc.show();
-
-
     }
 }
