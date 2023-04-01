@@ -31,8 +31,8 @@ class NonVegeterianDispatch
        acc = obj;
        acc.display();
        acc = obj1;
-       acc.();
+       acc.display();
        acc = obj2;
-       acc.show();
+       acc.display();
     }
 }
