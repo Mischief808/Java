@@ -6,7 +6,7 @@ public class Car
      tyres = 4;
      return tyres;
    }
-   private void show()
+   public void show()
    {
       System.out.println("This a Car class");
    } 
