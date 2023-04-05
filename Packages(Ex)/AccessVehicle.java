@@ -1,8 +1,8 @@
-import vehicle.*;
+import vehicle.*;                                   
 class B extends Bike
 { 
     public void show()
-    {
+    {   
         display();
     }
 }
@@ -16,5 +16,7 @@ class AccessVehicle
        c.show();
        obj.show();
        sb.disp();
+       
+   
     }
 }
