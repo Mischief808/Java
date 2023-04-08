@@ -25,7 +25,7 @@ class Overload
     {
         Fun f = new Fun();
         System.out.println(f.add(7,8));
-        System.out.println();
+        System.out.println(f.add(23,43,56));
         
     }
     
