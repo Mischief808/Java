@@ -5,9 +5,8 @@ class A
     System.out.println("In A");
  }
  A(int n)
- { 
-    
-    System.out.println("In A(int)");
+ {  
+    System.out.println("In A (int)");
  }
 }
 class B extends A
@@ -18,7 +17,7 @@ class B extends A
  }
  B(int n)
  { 
-    System.out.println("In B(int)");
+    System.out.println("In B (int)");
  }
 }
 class Construct
