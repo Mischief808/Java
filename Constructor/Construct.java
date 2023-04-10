@@ -18,7 +18,6 @@ class B extends A
  }
  B(int n)
  { 
-    super(n);
     System.out.println("In B(int)");
  }
 }
