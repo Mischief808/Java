@@ -15,9 +15,9 @@ class Collections extends Clothes
     public void WomenCloths()
     {
         System.out.println("This is Women's Clothes collections");
-        System.out.println("Sarees");
-        System.out.println("Salwar's");
-        System.out.println("Half Sarees");
+        System.out.println("\t \tSarees");
+        System.out.println("\t \tSalwar's");
+        System.out.println("\t \tHalf Sarees");
         
     }
     
@@ -28,5 +28,6 @@ class Demo
     {
             Clothes ob = new Collections();
             ob.MenCloths();
+            ob.WomenCloths();
     }    
 }
