@@ -6,20 +6,20 @@ class Example3
     }
     public static void main(String f[])
     {
-        Seasons s = Seasons.summer;
+        Seasons s = Seasons.winter;
         if(s == Seasons.summer)
         {
             System.out.println("Too hot");
         }
-        if(s == Seasons.winter)
+        else if(s == Seasons.winter)
         {
             System.out.println("Too Cold");
         }
-        if(s == Seasons.spring)
+        else if(s == Seasons.spring)
         {
             System.out.println("Muddiest Season");
         }
-        if(s == Seasons.fall)
+        else if(s == Seasons.fall)
         {
             System.out.println("Rising natures");
         }
