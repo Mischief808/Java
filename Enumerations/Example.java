@@ -25,7 +25,6 @@ class Example
         // System.out.println(mg1+ ":" +mg1.getNum());
 
         // Using For-Each
-         
         for(Month mg:Month.values())
         {
             System.out.println(mg + " : " +mg.getNum());
