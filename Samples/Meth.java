@@ -17,7 +17,7 @@ class Compo
    }
 } 
 class Meth
-{
+{   
     public static void main(String args[])
     {
         System.out.println("Hi,Welcome....");
@@ -25,7 +25,5 @@ class Meth
         cmp.playGuitar();
         String str = cmp.GetMeBall(30);
         System.out.println(str);
-        
-
     }
 }
