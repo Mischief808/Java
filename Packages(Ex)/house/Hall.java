@@ -3,6 +3,6 @@ public class Hall
 {
     public void disp()
     {
-        System.out.println("This is Hall Class");
+        System.out.println("This is Class Hall");
     }    
 }
