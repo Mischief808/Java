@@ -3,6 +3,6 @@ public class Door
 {
     public void show()
     {
-        System.out.println("This is class Door");
+        System.out.println("This is Door class ");
     }
 }
