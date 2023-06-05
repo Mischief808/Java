@@ -6,14 +6,14 @@ class Bricks implements Material
 {
     public void info()
     {
-        System.out.println("This is Bricks class");
+        System.out.println("This is Bricks");
     }
 }
 class Sand implements Material
 {
     public void info()
     {
-        System.out.println("This is Sand class");
+        System.out.println("This is Sand");
     }
 }
 class Acces
