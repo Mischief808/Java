@@ -27,11 +27,11 @@ class Materials
 {
     public static void main(String[] args)
     { 
-        Material bri = new Bricks();
-        Material San = new Sand();
+        Material obj = new Bricks();
+        Material  obj1 = new Sand();
 
         Acces dud = new Acces();
-        dud.getMater(bri);
-        dud.getMater(San);
+        dud.getMater(obj);
+        dud.getMater(obj1);
     }
 }
