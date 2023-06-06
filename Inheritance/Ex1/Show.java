@@ -1,8 +1,8 @@
 class Show extends Channel
 {
-    public static void main(String[] d)
+    public static void main(String[] a)
     {
-        Television t = new Television();
+        Televisions t = new Televisions();
         Channel c = new Channel();
         t.show();
         c.show();
