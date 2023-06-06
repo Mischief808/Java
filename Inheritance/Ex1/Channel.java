@@ -1,4 +1,4 @@
-class Channel extends Television
+class Channel extends Televisions
 {
     void show()
     {
