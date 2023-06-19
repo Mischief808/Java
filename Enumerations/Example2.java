@@ -3,23 +3,40 @@ class Example2
 {
     enum southIndia
     {
-        Tamilnadu,Karnataka,Andhra,Kerala,Telangana;
+        TAMILNADU("Tamil"),KARNATAKA("Kannada"),ANDHRA("Telugu"),KERALA("Malayalam"),TELANGANA("Telugu");
+        private String value;
+        southIndia(String value)
+        {
+            this.value = value;
+        }
+        public String getvalue()
+        {
+            return value;
+        }
     }
     public static void main(String f[])
     { 
-        southIndia si = southIndia.Kerala;
+        southIndia si = southIndia.KERALA;
+        System.out.println("ENUM Name : " +si.name());
+        System.out.println("ENUM Value : " +si.getvalue());
+        for(southIndia so : southIndia.values())
+        {
+            System.out.println("Name : " +so.name());
+            System.out.println("Value : " +so.getvalue());
+        }
+        
         switch(si)
         {
-            case Tamilnadu:
+            case TAMILNADU:
                 System.out.println("This is TamilNadu");
                 break;
-            case Karnataka:
+            case KARNATAKA:
                 System.out.println("This is karnataka");
                 break;
-            case Andhra:
+            case ANDHRA:
                 System.out.println("This is Andhra");
                 break;
-            case Kerala:
+            case KERALA:
                 System.out.println("This is Kerala");
                 break;
             default:
