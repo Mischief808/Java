@@ -8,8 +8,8 @@ class Execute extends ChennaiSuperKings
     public static void main(String args[])
     {
        ChennaiSuperKings ob = new ChennaiSuperKings(11,"MS Dhoni","Vineeth Srinivaan",15,"Robin Peterson");
-       ob.show();
-       ob.disp();
+       ob.shows();
+       ob.displ();
     }
 }
                                                                                                                                                                                                                                                                                                                                                                                                                                        
