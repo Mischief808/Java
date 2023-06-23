@@ -9,7 +9,7 @@ class ChennaiSuperKings extends Cricket
         this.coach = coach;
        
     }
-    void show()
+    void shows()
     {
         System.out.println("The toatl no.of.players in team are "+num);
         System.out.println(coach+" is the coach of the team");
