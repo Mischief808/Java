@@ -9,7 +9,7 @@ class Cricket
         this.no = no;
         this.umpire = umpire;
     }
-    void disp()
+    void displ()
     {      
         System.out.println(players+" is a Player");
         System.out.println(no+" players must be availavle in the team");
