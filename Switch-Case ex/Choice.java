@@ -23,6 +23,7 @@ class Choice
                break;
           case 4:
                System.out.println("Your Choice is 4");
+               System.out.println("Have a Nice Day!");
                break;
          default:
                System.out.println("You Have Entered a wrong Choice");
