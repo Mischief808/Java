@@ -6,32 +6,32 @@ class Bricks implements Material
 {
     public void info()
     {
-        System.out.println("Bricks Class");
+        System.out.println("This is Bricks Class");
     }
 }
 class Sand implements Material
 {
     public void info()
     {
-        System.out.println("Sand Class");
+        System.out.println("This is Sand Class");
     }
 }
 class Acces
 {
-    public void getMater(Material br)
+    public void getMater(Material bri)
     {
-        br.info();
+        bri.info();
     }
 }
 class Materials
 {
     public static void main(String[] args)
     { 
-        Material br = new Bricks();
-        Material  sn = new Sand();
+        Material bri = new Bricks();
+        Material  san = new Sand();
 
-        Acces du = new Acces();
-        du.getMater(br);
-        du.getMater(sn);
+        Acces dud = new Acces();
+        dud.getMater(bri);
+        dud.getMater(san);
     }
 }
