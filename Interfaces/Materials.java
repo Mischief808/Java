@@ -27,8 +27,8 @@ class Materials
 {
     public static void main(String[] args)
     { 
-        Material bri = new Bricks();
-        Material  san = new Sand();
+        Material br = new Bricks();
+        Material  sn = new Sand();
 
         Acces dud = new Acces();
         dud.getMater(bri);
