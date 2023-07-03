@@ -6,21 +6,21 @@ class Bricks implements Material
 {
     public void info()
     {
-        System.out.println("This is Bricks");
+        System.out.println("Bricks Class");
     }
 }
 class Sand implements Material
 {
     public void info()
     {
-        System.out.println("This is Sand");
+        System.out.println("Sand Class");
     }
 }
 class Acces
 {
-    public void getMater(Material bri)
+    public void getMater(Material br)
     {
-        bri.info();
+        br.info();
     }
 }
 class Materials
@@ -30,8 +30,8 @@ class Materials
         Material br = new Bricks();
         Material  sn = new Sand();
 
-        Acces dud = new Acces();
-        dud.getMater(bri);
-        dud.getMater(san);
+        Acces du = new Acces();
+        du.getMater(br);
+        du.getMater(sn);
     }
 }
