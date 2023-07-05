@@ -1,4 +1,4 @@
-class Dat
+class Data
 {
     private int age;
     void setAge(int age)
@@ -14,8 +14,8 @@ class Encaps
 {
    public static void main(String args[])
    {
-     Dat ob = new Dat();
-     ob.setAge(19);
-     System.out.println(ob.getAge());
+     Dat obj = new Dat();
+     obj.setAge(19);
+     System.out.println("Age is " +obj.getAge());
    }
 }
