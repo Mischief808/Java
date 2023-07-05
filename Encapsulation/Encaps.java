@@ -14,7 +14,7 @@ class Encaps
 {
    public static void main(String args[])
    {
-     Dat obj = new Dat();
+     Data obj = new Data();
      obj.setAge(19);
      System.out.println("Age is " +obj.getAge());
    }
