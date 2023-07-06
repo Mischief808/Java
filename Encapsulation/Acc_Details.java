@@ -27,10 +27,6 @@ class Details
     {
         return amount;
     }
-    public long getAcc_no() {
-        return acc_no;
-    }
-
 }
 class Acc_Details
 {
