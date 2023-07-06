@@ -36,6 +36,6 @@ class Acc_Details
          d.setAccNo(1491939660);
          d.setName("Christopher");
          d.setAmount(40000);
-         System.out.println("Name : " +d.getName()+ "Account-No : " +d.getAccNo()+ "Amount : " +d.getAmount());
+         System.out.println("Name : " +d.getName()+ "\nAccount-No : " +d.getAccNo()+ "\nAmount : " +d.getAmount());
     }
 }
