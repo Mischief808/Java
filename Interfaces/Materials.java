@@ -16,7 +16,7 @@ class Sand implements Material
         System.out.println("This is Sand Class");
     }
 }
-class Acces
+class Access
 {
     public void getMater(Material bri)
     {
@@ -29,8 +29,7 @@ class Materials
     { 
         Material bri = new Bricks();
         Material  san = new Sand();
-
-        Acces dud = new Acces();
+        Access dud = new Access();
         dud.getMater(bri);
         dud.getMater(san);
     }
