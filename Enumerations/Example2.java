@@ -25,22 +25,22 @@ class Example2
             System.out.println("Value : " +so.getvalue());
         }
         
-        // switch(si)
-        // {
-        //     case TAMILNADU:
-        //         System.out.println("This is TamilNadu");
-        //         break;
-        //     case KARNATAKA:                                                     //Switch Case in ENUMERATIONS
-        //         System.out.println("This is karnataka");
-        //         break;
-        //     case ANDHRA:
-        //         System.out.println("This is Andhra");
-        //         break;
-        //     case KERALA:
-        //         System.out.println("This is Kerala");
-        //         break;
-        //     default:
-        //         System.out.println("This is Telangana");
-        // }
+        switch(si)
+        {
+            case TAMILNADU:
+                System.out.println("This is TamilNadu");
+                break;
+            case KARNATAKA:                                                     //Switch Case in ENUMERATIONS
+                System.out.println("This is karnataka");
+                break;
+            case ANDHRA:
+                System.out.println("This is Andhra");
+                break;
+            case KERALA:
+                System.out.println("This is Kerala");
+                break;
+            default:
+                System.out.println("This is Telangana");
+        }
     }
 }
