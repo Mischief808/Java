@@ -2,8 +2,8 @@ class Display
 {
  public static void main(String args[])
  {
-   int a=10;
-  System.out.println(a);
-  System.out.print(78); 
+   int b=10;
+  System.out.println(78); 
+  System.out.print(b);
  }
 }
