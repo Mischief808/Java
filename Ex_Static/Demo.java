@@ -5,7 +5,7 @@ class Demo1
     {
         System.out.println("This is a Static Method");
     }
-    void MyMeth1()
+    void MyMetho1()
     {
         System.out.println("This is a non-Static Method");
     }
@@ -16,7 +16,7 @@ class Demo
     {
         Demo1.MyMetho();
         Demo1 m = new Demo1();
-        m.MyMeth1();
+        m.MyMetho1();
     }
 
 }
