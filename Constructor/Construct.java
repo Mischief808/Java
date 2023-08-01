@@ -2,23 +2,23 @@ class A
 {
  A()
  {
-    System.out.println("In A constructor");
+    System.out.println("A's constructor");
  }
  A(int n)
  {  
-    System.out.println("In A int constructor");
+    System.out.println("A's int constructor");
  }
 }
 class B extends A
 {
  B()
  {
-    System.out.println("In B constrcutor");
+    System.out.println("B's constrcutor");
  }
  B(int n)
  { 
    super(n); //calling parent class Constructor
-    System.out.println("In B int constructor");
+    System.out.println("B's int constructor");
  }
 }
 class Construct
